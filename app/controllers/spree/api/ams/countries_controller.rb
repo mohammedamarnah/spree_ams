@@ -1,7 +1,7 @@
 module Spree
   module Api
     module Ams
-      class CountriesController < Spree::Api::CountriesController
+      class CountriesController < Spree::Api::V2::Platform::CountriesController
         include Serializable
         include Requestable
 
